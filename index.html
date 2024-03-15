@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>SIMPLY CHOCOLATE</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <nav class="nav">
+                <a class="logo" href="#"><span class="logo-span">SIMPLY</span> CHOCOLATE
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_653_172)">
+                            <path
+                                d="M2.9579 15.0568L11.0405 1.9886L11.5205 1.48303L17.6973 5.6014L17.7396 8.08665L19.2471 10.5463L12.5873 21.1038L2.9579 15.0568Z"
+                                fill="#FCF1E0" />
+                            <path
+                                d="M16.5731 17.2732L5.93391 10.6251M8.8678 5.81257L19.5069 12.4606M8.31958 18.7618L17.1213 4.32404M20.7294 10.4554C18.4496 9.03082 17.5542 7.91748 19.0211 5.51119L11.8017 1L3.00001 15.4377L13.6392 22.0858L20.7294 10.4554Z"
+                                stroke="#FD9222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_653_172">
+                                <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+
+                <ul class="menu-nav">
+                    <li><a class="link-menu" href="#">Home</a></li>
+                    <li>
+                        <a class="link-menu" href="#made">How it’s made?</a>
+                    </li>
+                    <li>
+                        <a class="link-menu" href="#loved">Chocolate is loved</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social-header">
+                <li>
+                    <a class="social-link" href="https://www.facebook.com/" target="_blank"><svg width="40" height="40"
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="#111111"
+                                stroke-opacity="0.1" />
+                            <path
+                                d="M22.64 11.4802C22.82 11.4802 23 11.4802 23.36 11.4802V14.1802C23.18 14.1802 22.82 14.1802 22.46 14.1802C22.1 14.1802 21.74 14.1802 21.56 14.3602C21.38 14.5402 21.38 14.7202 21.38 15.1402C21.38 15.5002 21.38 15.7402 21.38 16.1002H23.36V18.3802H21.38V28.2802H18.32V18.3202H16.7V16.0402H18.32V15.2602C18.32 13.9402 18.5 12.9802 18.86 12.5602C19.4 11.7802 20.48 11.4202 22.1 11.4202C22.28 11.4802 22.46 11.4802 22.64 11.4802Z"
+                                fill="#111111" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link" href="https://www.instagram.com/" target="_blank"><svg width="40" height="40"
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="#111111"
+                                stroke-opacity="0.1" />
+                            <path
+                                d="M29.5382 16.0669C29.5264 15.2611 29.3772 14.4617 29.0914 13.7081C28.5914 12.4212 27.5732 11.4037 26.2841 10.9055C25.5389 10.6256 24.7509 10.4755 23.9534 10.4584C22.9278 10.4127 22.6026 10.3999 19.9989 10.3999C17.3953 10.3999 17.0616 10.3999 16.0434 10.4584C15.2469 10.4755 14.459 10.6256 13.7137 10.9055C12.4247 11.4037 11.4054 12.4212 10.9064 13.7081C10.626 14.4521 10.4746 15.2388 10.4597 16.0339C10.4139 17.0589 10.4 17.3836 10.4 19.9829C10.4 22.5822 10.4 22.9143 10.4597 23.9319C10.4757 24.7281 10.626 25.5136 10.9064 26.2598C11.4065 27.5456 12.4247 28.5632 13.7148 29.0613C14.4569 29.3508 15.2448 29.5148 16.0444 29.5403C17.0712 29.5861 17.3964 29.5999 20 29.5999C22.6036 29.5999 22.9374 29.5999 23.9556 29.5403C24.752 29.5243 25.5399 29.3742 26.2863 29.0943C27.5753 28.5951 28.5935 27.5775 29.0936 26.2917C29.374 25.5466 29.5243 24.7611 29.5403 23.9638C29.5861 22.9398 29.6 22.6152 29.6 20.0148C29.5979 17.4155 29.5979 17.0855 29.5382 16.0669ZM19.9925 24.8984C17.2695 24.8984 15.0635 22.6961 15.0635 19.9776C15.0635 17.259 17.2695 15.0567 19.9925 15.0567C22.7135 15.0567 24.9215 17.259 24.9215 19.9776C24.9215 22.6961 22.7135 24.8984 19.9925 24.8984ZM25.1177 16.0222C24.4812 16.0222 23.9684 15.5091 23.9684 14.8747C23.9684 14.2403 24.4812 13.7273 25.1177 13.7273C25.7521 13.7273 26.266 14.2403 26.266 14.8747C26.266 15.5091 25.7521 16.0222 25.1177 16.0222Z"
+                                fill="#111111" />
+                            <path
+                                d="M19.9941 22.9821C21.6526 22.9821 22.9971 21.6376 22.9971 19.9791C22.9971 18.3206 21.6526 16.9761 19.9941 16.9761C18.3355 16.9761 16.9911 18.3206 16.9911 19.9791C16.9911 21.6376 18.3355 22.9821 19.9941 22.9821Z"
+                                fill="#111111" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link" href="https://twitter.com/" target="_blank"><svg width="40" height="40"
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="#111111"
+                                stroke-opacity="0.1" />
+                            <path
+                                d="M30 13.9238C29.2563 14.25 28.4637 14.4662 27.6375 14.5712C28.4875 14.0638 29.1363 13.2662 29.4412 12.305C28.6488 12.7775 27.7738 13.1113 26.8412 13.2975C26.0887 12.4963 25.0162 12 23.8462 12C21.5763 12 19.7487 13.8425 19.7487 16.1013C19.7487 16.4262 19.7762 16.7387 19.8438 17.0362C16.435 16.87 13.4188 15.2363 11.3925 12.7475C11.0387 13.3613 10.8313 14.0638 10.8313 14.82C10.8313 16.24 11.5625 17.4987 12.6525 18.2275C11.9937 18.215 11.3475 18.0238 10.8 17.7225C10.8 17.735 10.8 17.7512 10.8 17.7675C10.8 19.76 12.2212 21.415 14.085 21.7962C13.7512 21.8875 13.3875 21.9312 13.01 21.9312C12.7475 21.9312 12.4825 21.9163 12.2337 21.8612C12.765 23.485 14.2725 24.6788 16.065 24.7175C14.67 25.8088 12.8988 26.4662 10.9813 26.4662C10.645 26.4662 10.3225 26.4513 10 26.41C11.8162 27.5813 13.9688 28.25 16.29 28.25C23.835 28.25 27.96 22 27.96 16.5825C27.96 16.4012 27.9538 16.2263 27.945 16.0525C28.7588 15.475 29.4425 14.7538 30 13.9238Z"
+                                fill="#111111" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="section-top">
+                <h1 class="top-title">
+                    Treat yourself or a loved one to our finest ingredients for a moment
+                    of pure delight!
+                </h1>
+                <div class="button-scroll">
+                    <ul class="buttons-top">
+                        <li>
+                            <button class="button-now" type="button">Buy now</button>
+                        </li>
+                        <li>
+                            <button class="button-made" type="button">How it’s made</button>
+                        </li>
+                    </ul>
+
+                    <div class="scroll-down">
+                        <a class="scroll" href="#">scroll down<svg width="38" height="39" viewBox="0 0 38 39"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="19" cy="19" rx="19" ry="19" transform="matrix(0 1 1 0 0 0)" fill="white" />
+                                <path
+                                    d="M19.6508 20.2835C19.5656 20.3694 19.4642 20.4376 19.3525 20.4842C19.2408 20.5307 19.121 20.5547 19 20.5547C18.879 20.5547 18.7592 20.5307 18.6475 20.4842C18.5358 20.4376 18.4344 20.3694 18.3492 20.2835L14.1508 16.076C14.0656 15.9901 13.9642 15.9219 13.8525 15.8754C13.7408 15.8288 13.621 15.8049 13.5 15.8049C13.379 15.8049 13.2592 15.8288 13.1475 15.8754C13.0358 15.9219 12.9344 15.9901 12.8492 16.076C12.6784 16.2478 12.5826 16.4801 12.5826 16.7223C12.5826 16.9644 12.6784 17.1968 12.8492 17.3685L17.0567 21.576C17.5723 22.091 18.2713 22.3802 19 22.3802C19.7288 22.3802 20.4277 22.091 20.9433 21.576L25.1509 17.3685C25.3202 17.1978 25.4157 16.9673 25.4167 16.7268C25.4174 16.6062 25.3943 16.4866 25.3486 16.3749C25.303 16.2632 25.2358 16.1617 25.1509 16.076C25.0656 15.9901 24.9643 15.9219 24.8525 15.8754C24.7408 15.8288 24.621 15.8049 24.5 15.8049C24.379 15.8049 24.2592 15.8288 24.1475 15.8754C24.0358 15.9219 23.9344 15.9901 23.8492 16.076L19.6508 20.2835Z"
+                                    fill="#FD9222" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="section-benefits">
+                <h2 style="display: none">benefits</h2>
+                <ul class="benefits-list">
+                    <li>
+                        <div class="ben-item item-l">
+                            <h3 class="benefits-title">Unsurpassed taste</h3>
+                            <p class="benefits-text">
+                                Crafted with the finest quality cocoa beans and a dedication
+                                to perfection, each bite is a decadent experience that simply
+                                cannot be matched. Savor the richness and complexity of our
+                                Unsurpassed Taste and discover a new level of chocolate bliss.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ben-item">
+                            <h3 class="benefits-title">Affordable price</h3>
+                            <p class="benefits-text">
+                                Indulge in high-quality chocolate without breaking the bank
+                                with Simply Chocolate's selection of affordable treats. Enjoy
+                                mouth-watering truffles and velvety chocolate bars without
+                                sacrificing taste or quality. Browse our selection and indulge
+                                in affordable luxury today.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ben-item item-r">
+                            <h3 class="benefits-title">Own production</h3>
+                            <p class="benefits-text">
+                                We take pride in our own production process, ensuring that
+                                every step is carefully crafted to perfection. From selecting
+                                the finest ingredients to handcrafting each piece, our
+                                attention to detail is evident in every bite.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="ingridient">
+                <div>
+                    <h2 class="ingridient-title">
+                        It all adds up to one exceptional
+                        <span class="title-span">taste</span> sensation
+                    </h2>
+                </div>
+                <ul class="ingridient-cont">
+                    <li>
+                        <div class="cards orange">
+                            <img src="images/milkchocolate.png" alt="MILK CHOCOLATE" width="214" height="160" />
+                            <h3 class="milk-chocolate-title">MILK CHOCOLATE</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards white">
+                            <img src="images/milk.png" alt="MILK" width="214" height="160" />
+                            <h3>MILK</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards black">
+                            <img src="images/hazelnuts.png" alt="NUTS" width="214" height="160" />
+                            <h3>NUTS</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards white">
+                            <img src="images/chocolate.png" alt="SEMI - SWEET CHOCOLATE" width="214" height="160" />
+                            <h3>SEMI - SWEET CHOCOLATE</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards orange">
+                            <img src="images/cacao.png" alt="CACAO" width="214" height="160" />
+                            <h3>CACAO</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards white">
+                            <img src="images/raspberry.png" alt="RASPBERRY" width="214" height="160" />
+                            <h3>RASPBERRY</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards black">
+                            <img src="images/coconutoil.png" alt="COCONUT OIL" width="214" height="160" />
+                            <h3>COCONUT OIL</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards white">
+                            <img src="images/vanilla.png" alt="VANILLA" width="214" height="160" />
+                            <h3>VANILLA</h3>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="made">
+                <h2 id="made">How it’s <span class="span-color">made</span>?</h2>
+                <div class="made-cont">
+                    <img src="images/howmade.jpg" alt="" width="600" height="400" />
+                    <div class="made-list">
+                        <h3>
+                            Try our chocolates today and discover the perfect balance of
+                            flavor
+                        </h3>
+
+                        <ul class="made-item">
+                            <li>
+                                <p>
+                                    Heat the milk in a saucepan without bringing it to a boil.
+                                    Add sugar and cocoa powder.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    At the same time, prepare a water bath. Melt the butter on
+                                    it.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    "Mix" the milk mixture and already liquid butter. Mix
+                                    thoroughly with a silicone spatula so that the mass becomes
+                                    uniform and silky.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Heat the mixture over low heat, letting it barely boil.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    Pour the chocolate into special containers (can be replaced
+                                    with ice molds). Allow to cool and harden.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="product">
+                <h2 class="products-title">
+                    Our <span class="span-color">products</span>
+                </h2>
+                <ul class="product-list">
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/orange.jpg" alt="Orange chocolate" width="230" height="201" />
+                            <h3>Orange</h3>
+                            <p>Dark chocolate</p>
+                            <button type="button">45 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/appcran.jpg" alt="Apple&Cranberry chocolate" width="230" height="201" />
+                            <h3>Apple&Cranberry</h3>
+                            <p>Milk chocolate</p>
+                            <button type="button">50 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/limsalt.jpg" alt="Lime&Sea salt chocolate" width="230" height="201" />
+                            <h3>Lime&Sea salt</h3>
+                            <p>Dark chocolate</p>
+                            <button type="button">66 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/pineapple.jpg" alt="Pineapple chocolate" width="230" height="201" />
+                            <h3>Pineapple</h3>
+                            <p>Dark chocolate</p>
+                            <button type="button">54 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/classic.jpg" alt="Classic chocolate" width="230" height="201" />
+                            <h3>Classic</h3>
+                            <p>Milk chocolate</p>
+                            <button type="button">45 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/honey.jpg" alt="Honey chocolate" width="230" height="201" />
+                            <h3>Honey</h3>
+                            <p>Milk chocolate</p>
+                            <button type="button">50 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/roasted.jpg" alt="Roasted fruits chocolate" width="230" height="201" />
+                            <h3>Roasted fruits</h3>
+                            <p>Dark chocolate</p>
+                            <button type="button">66 UAH</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-chocolate">
+                            <img src="images/classicwhite.jpg" alt="Classic White chocolate" width="230" height="201" />
+                            <h3>Classic</h3>
+                            <p>White chocolate</p>
+                            <button type="button">54 UAH</button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="sellers">
+                <h2 class="sellers-title">
+                    <span class="span-color">Top</span> sellers
+                </h2>
+                <ul class="sellers-list">
+                    <li>
+                        <div class="card-sellers">
+                            <img src="images/choconuts.jpg" alt="CHOCOLATE WITH NUTS" width="368" height="464" />
+                            <h3>CHOCOLATE WITH NUTS</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-sellers">
+                            <img src="images/chocofruits.jpg" alt="CHOCOLATE WITH FRUITS" width="368" height="464" />
+                            <h3>CHOCOLATE WITH FRUITS</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-sellers">
+                            <img src="images/chocodark.jpg" alt="DARK CHOCOLATE" width="368" height="464" />
+                            <h3>DARK CHOCOLATE</h3>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="loved">
+                <h2 id="loved"><span class="span-color">Chocolate</span> is loved</h2>
+                <ul class="loved-list">
+                    <li>
+                        <div class="card-loved-frame">
+                            <div class="loved-layout">
+                                <img src="images/victoriadobrzhanska.jpg" alt="Victoria Dobrzhanska logo" width="80"
+                                    height="80" />
+                                <h3>Victoria Dobrzhanska</h3>
+                            </div>
+                            <div class="loved-text">
+                                <p>
+                                    I love this chocolate bar. Perfect combination of light
+                                    crispy wafer, covered in a thin layer chocolate.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-loved-frame">
+                            <div class="loved-layout">
+                                <img src="images/nazarbabenko.jpg" alt="Nazar Babenko logo" width="80" height="80" />
+                                <h3>Nazar Babenko</h3>
+                            </div>
+                            <div class="loved-text">
+                                <p>
+                                    This chocolate confection is a delight! A delight! The wafer
+                                    is light and crisp, the hazelnut cream is smooth, and the
+                                    chocolate is good.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card-loved-frame">
+                            <div class="loved-layout">
+                                <img src="images/olenakampusch.jpg" alt="Olena Kampusch logo" width="80" height="80" />
+                                <h3>Olena Kampusch</h3>
+                            </div>
+
+                            <div class="loved-text">
+                                <p>
+                                    Chocolate is a family favourite treat. Love the delicious
+                                    smooth chocolate and the creaminess inside. The wafer is
+                                    soft but crunchy.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="button-loved-cont">
+                    <button class="button-leave" type="button">Leave a review</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer-page">
+            <div class="footer-cont">
+                <div class="footer-top">
+                    <h2 class="footer-title">
+                        <span class="span-color">Chocolate</span> a delicious cure for a
+                        bad day
+                    </h2>
+                    <div class="footer-cocial-cont">
+                        <h3 class="footer-social-title">Social networks</h3>
+                        <ul class="footer-cont-list">
+                            <li>
+                                <a class="social-link" href="https://www.facebook.com/" target="_blank"><svg width="40"
+                                        height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="white"
+                                            stroke-opacity="0.1" />
+                                        <path
+                                            d="M22.64 11.4802C22.82 11.4802 23 11.4802 23.36 11.4802V14.1802C23.18 14.1802 22.82 14.1802 22.46 14.1802C22.1 14.1802 21.74 14.1802 21.56 14.3602C21.38 14.5402 21.38 14.7202 21.38 15.1402C21.38 15.5002 21.38 15.7402 21.38 16.1002H23.36V18.3802H21.38V28.2802H18.32V18.3202H16.7V16.0402H18.32V15.2602C18.32 13.9402 18.5 12.9802 18.86 12.5602C19.4 11.7802 20.48 11.4202 22.1 11.4202C22.28 11.4802 22.46 11.4802 22.64 11.4802Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social-link" href="https://www.instagram.com/" target="_blank"><svg width="40"
+                                        height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="white"
+                                            stroke-opacity="0.1" />
+                                        <path
+                                            d="M29.5382 16.0669C29.5264 15.2611 29.3772 14.4617 29.0914 13.7081C28.5914 12.4212 27.5732 11.4037 26.2841 10.9055C25.5389 10.6256 24.7509 10.4755 23.9534 10.4584C22.9278 10.4127 22.6026 10.3999 19.9989 10.3999C17.3953 10.3999 17.0616 10.3999 16.0434 10.4584C15.2469 10.4755 14.459 10.6256 13.7137 10.9055C12.4247 11.4037 11.4054 12.4212 10.9064 13.7081C10.626 14.4521 10.4746 15.2388 10.4597 16.0339C10.4139 17.0589 10.4 17.3836 10.4 19.9829C10.4 22.5822 10.4 22.9143 10.4597 23.9319C10.4757 24.7281 10.626 25.5136 10.9064 26.2598C11.4065 27.5456 12.4247 28.5632 13.7148 29.0613C14.4569 29.3508 15.2448 29.5148 16.0444 29.5403C17.0712 29.5861 17.3964 29.5999 20 29.5999C22.6036 29.5999 22.9374 29.5999 23.9556 29.5403C24.752 29.5243 25.5399 29.3742 26.2863 29.0943C27.5753 28.5951 28.5935 27.5775 29.0936 26.2917C29.374 25.5466 29.5243 24.7611 29.5403 23.9638C29.5861 22.9398 29.6 22.6152 29.6 20.0148C29.5979 17.4155 29.5979 17.0855 29.5382 16.0669ZM19.9925 24.8984C17.2695 24.8984 15.0635 22.6961 15.0635 19.9776C15.0635 17.259 17.2695 15.0567 19.9925 15.0567C22.7135 15.0567 24.9215 17.259 24.9215 19.9776C24.9215 22.6961 22.7135 24.8984 19.9925 24.8984ZM25.1177 16.0222C24.4812 16.0222 23.9684 15.5091 23.9684 14.8747C23.9684 14.2403 24.4812 13.7273 25.1177 13.7273C25.7521 13.7273 26.266 14.2403 26.266 14.8747C26.266 15.5091 25.7521 16.0222 25.1177 16.0222Z"
+                                            fill="white" />
+                                        <path
+                                            d="M19.9941 22.9821C21.6526 22.9821 22.9971 21.6376 22.9971 19.9791C22.9971 18.3206 21.6526 16.9761 19.9941 16.9761C18.3355 16.9761 16.9911 18.3206 16.9911 19.9791C16.9911 21.6376 18.3355 22.9821 19.9941 22.9821Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social-link" href="https://twitter.com/" target="_blank"><svg width="40"
+                                        height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="white"
+                                            stroke-opacity="0.1" />
+                                        <path
+                                            d="M30 13.9238C29.2563 14.25 28.4637 14.4662 27.6375 14.5712C28.4875 14.0638 29.1363 13.2662 29.4412 12.305C28.6488 12.7775 27.7738 13.1113 26.8412 13.2975C26.0887 12.4963 25.0162 12 23.8462 12C21.5763 12 19.7487 13.8425 19.7487 16.1013C19.7487 16.4262 19.7762 16.7387 19.8438 17.0362C16.435 16.87 13.4188 15.2363 11.3925 12.7475C11.0387 13.3613 10.8313 14.0638 10.8313 14.82C10.8313 16.24 11.5625 17.4987 12.6525 18.2275C11.9937 18.215 11.3475 18.0238 10.8 17.7225C10.8 17.735 10.8 17.7512 10.8 17.7675C10.8 19.76 12.2212 21.415 14.085 21.7962C13.7512 21.8875 13.3875 21.9312 13.01 21.9312C12.7475 21.9312 12.4825 21.9163 12.2337 21.8612C12.765 23.485 14.2725 24.6788 16.065 24.7175C14.67 25.8088 12.8988 26.4662 10.9813 26.4662C10.645 26.4662 10.3225 26.4513 10 26.41C11.8162 27.5813 13.9688 28.25 16.29 28.25C23.835 28.25 27.96 22 27.96 16.5825C27.96 16.4012 27.9538 16.2263 27.945 16.0525C28.7588 15.475 29.4425 14.7538 30 13.9238Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <address class="address">
+                        <p>Contact us</p>
+                        <ul>
+                            <li>
+                                <a class="contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                            </li>
+                            <li>
+                                <a class="contact-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <ul class="menu-item-down">
+                    <li><a class="link-menu-footer" href="#">Home</a></li>
+                    <li><a class="link-menu-footer" href="#made">How it’s made?</a></li>
+                    <li>
+                        <a class="link-menu-footer" href="#loved">Chocolate is loved</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
